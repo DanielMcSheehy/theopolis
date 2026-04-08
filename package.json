@@ -1,0 +1,26 @@
+{
+  "name": "theopolis",
+  "version": "1.0.0",
+  "description": "Theopolis — A modern AI taskflow system built on Mastra AI",
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "studio": "mastra studio"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.22.0",
+    "@mastra/memory": "^1.22.0",
+    "@mastra/libsql": "^1.22.0",
+    "@mastra/evals": "^1.22.0",
+    "@chat-adapter/slack": "^1.0.0",
+    "@chat-adapter/discord": "^1.0.0",
+    "@chat-adapter/telegram": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
